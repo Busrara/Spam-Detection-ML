@@ -56,21 +56,19 @@ Confusion matrices visualize the model’s performance in classifying spam and h
 
 📈 **Model Performance**
 
-### Random Forest Classifier
-Accuracy: 99.4%
-Confusion Matrix:
-True Positive (TP): 1443
-False Positive (FP): 3
-False Negative (FN): 14
-True Negative (TN): 1435
+### Random Forest Confusion Matrix
+- **Accuracy**: 99.41
+- **True Positive (TP)**: 1435
+- **False Positive (FP)**: 3
+- **False Negative (FN)**: 14
+- **True Negative (TN)**: 1443
 
-### Naive Bayes Classifier
-Accuracy: 98.6%
-Confusion Matrix:
-True Positive (TP): 1435
-False Positive (FP): 22
-False Negative (FN): 16
-True Negative (TN): 1422
+### Naive Bayes Confusion Matrix
+- **Accuracy**: 98.69%
+- **True Positive (TP)**: 1435
+- **False Positive (FP)**: 22
+- **False Negative (FN)**: 16
+- **True Negative (TN)**: 1422
 
 
 
