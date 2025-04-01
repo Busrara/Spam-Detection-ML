@@ -20,12 +20,12 @@ In this project, we aim to predict whether a given SMS message is spam or not. T
 
 The project needs the following Python libraries:
 
-⚪ pandas: For data handling and manipulation.
-⚪ numpy: For numerical operations.
-⚪ scikit-learn: For machine learning algorithms.
-⚪ imblearn: For the SMOTE oversampling technique.
-⚪ matplotlib & seaborn: For data visualization.
-⚪ nltk: For text processing and natural language tasks.
+- pandas: For data handling and manipulation.
+- numpy: For numerical operations.
+- scikit-learn: For machine learning algorithms.
+- imblearn: For the SMOTE oversampling technique.
+- matplotlib & seaborn: For data visualization.
+- nltk: For text processing and natural language tasks.
 
 📊 **Dataset**
 
