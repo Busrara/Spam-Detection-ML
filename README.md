@@ -31,28 +31,28 @@ The project needs the following Python libraries:
 
 The dataset used in this project contains SMS messages labeled in two groups:
 
-⚪ ham: Legitimate messages.
-⚪ spam: Spam messages.
+- ham: Legitimate messages.
+- spam: Spam messages.
 
 It’s a pre-processed dataset so it is already ready for use with machine learning models.
 
 **How It Works**
 
 ### 1. Data Preprocessing
-⚪ Clean the raw text data.
-⚪ Tokenize the messages and remove unwanted characters.
-⚪ Convert the text data into numerical features using TF-IDF vectorization.
+- Clean the raw text data.
+- Tokenize the messages and remove unwanted characters.
+- Convert the text data into numerical features using TF-IDF vectorization.
 
 ### 2. Handling Class Imbalance
 We use SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset by generating synthetic samples of the minority class (spam).
 
 ### 3. Model Training
-⚪ Random Forest Classifier: A powerful ensemble learning method.
-⚪ Naive Bayes Classifier: A probabilistic classifier based on Bayes' theorem.
+- Random Forest Classifier: A powerful ensemble learning method.
+-  Naive Bayes Classifier: A probabilistic classifier based on Bayes' theorem.
 
 ### 4. Model Evaluation
-Accuracy, precision, recall, and F1-score are used to evaluate both models.
-Confusion matrices visualize the model’s performance in classifying spam and ham messages.
+- Accuracy, precision, recall, and F1-score are used to evaluate both models.
+- Confusion matrices visualize the model’s performance in classifying spam and ham messages.
 
 📈 **Model Performance**
 
