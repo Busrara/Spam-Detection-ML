@@ -70,6 +70,8 @@ We use SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset
 - **False Negative (FN)**: 16
 - **True Negative (TN)**: 1422
 
+To have a further understanding of the project you can read my Medium writing: https://medium.com/@busraracoban/how-to-develop-a-spam-classification-model-with-machine-learning-d695f7db9693 📚
+
 
 
 
