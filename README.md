@@ -1,48 +1,62 @@
-# Spam-Detection-ML
+# Spam Classification with ML
 
-This project is designed to classify SMS messages as either "ham" (legitimate) or "spam" using machine learning models like Random Forest and Naive Bayes.
+This project is  prepared to classify SMS messages as either **ham** (legitimate) or **spam** using various classification models. The project implements **Random Forest** and **Naive Bayes** classifiers,and also data preprocessing techniques like TF-IDF vectorization and SMOTE for class imbalance.
 
-🟤 Libraries Used
+---
 
-The following libraries are used in this project:
+## 📋 **Project Overview**
 
-⚫ pandas for data handling
-⚫ numpy for numerical operations
-⚫ scikit-learn for machine learning models
-⚫ imblearn for oversampling techniques
-⚫ matplotlib and seaborn for data visualization
-⚫ nltk for natural language processing
+In this project, we aim to predict whether a given SMS message is spam or not. The main steps are:
+- Data preprocessing: cleaning and tokenizing text data.
+- Feature extraction: transforming text data into numerical format by TF-IDF.
+- Model training: applying machine learning classifiers to the dataset.
+- Model evaluation: assessing performance using accuracy, precision, recall, and F1-score metrics.
 
-🟤 Dataset
+---
+## 🛠 **Installation**
+  Install necessary libraries if you are using Google Colab.
 
-This project uses a dataset of SMS messages. It contains two classes:
+📚 **Libraries Used**
 
-ham: Legitimate messages
-spam: Spam messages
-The dataset is pre-processed and cleaned before using machine learning models.
+The project needs the following Python libraries:
 
-🟢 How It Works
+⚪ pandas: For data handling and manipulation.
+⚪ numpy: For numerical operations.
+⚪ scikit-learn: For machine learning algorithms.
+⚪imblearn: For the SMOTE oversampling technique.
+⚪ matplotlib & seaborn: For data visualization.
+⚪ nltk: For text processing and natural language tasks.
 
-# 1. Data Preprocessing:
-⚫ The raw data is loaded and cleaned.
-⚫ Text is tokenized and transformed using TF-IDF vectorization.
+📊 **Dataset**
 
-# 2. SMOTE Oversampling:
-⚫ The class imbalance is handled using SMOTE (Synthetic Minority Over-sampling Technique).
+The dataset used in this project contains SMS messages labeled in two groups:
 
-# 3.Model Training:
-- Two machine learning models are used:
-⚫ Random Forest Classifier
-⚫ Naive Bayes Classifier
+ham: Legitimate messages.
+spam: Spam messages.
 
-# Model Evaluation:
-Accuracy, confusion matrix, and classification report are used to evaluate the model's performance.
+It’s a pre-processed dataset so it is already ready for use with machine learning models.
 
-🔴 Results
+**How It Works**
 
-The models are evaluated on different metrics including accuracy, precision, recall, and F1-score.
+### 1. Data Preprocessing
+Clean the raw text data.
+Tokenize the messages and remove unwanted characters.
+Convert the text data into numerical features using TF-IDF vectorization.
 
-# Random Forest:
+### 2. Handling Class Imbalance
+We use SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset by generating synthetic samples of the minority class (spam).
+
+### 3. Model Training
+Random Forest Classifier: A powerful ensemble learning method.
+Naive Bayes Classifier: A probabilistic classifier based on Bayes' theorem.
+
+### 4. Model Evaluation
+Accuracy, precision, recall, and F1-score are used to evaluate both models.
+Confusion matrices visualize the model’s performance in classifying spam and ham messages.
+
+📈 **Model Performance**
+
+### Random Forest Classifier
 Accuracy: 99.4%
 Confusion Matrix:
 True Positive (TP): 1443
@@ -50,13 +64,14 @@ False Positive (FP): 3
 False Negative (FN): 14
 True Negative (TN): 1435
 
-# Naive Bayes:
+### Naive Bayes Classifier
 Accuracy: 98.6%
 Confusion Matrix:
 True Positive (TP): 1435
 False Positive (FP): 22
 False Negative (FN): 16
 True Negative (TN): 1422
+
 
 
 
