@@ -36,7 +36,7 @@ The dataset used in this project contains SMS messages labeled in two groups:
 
 It’s a pre-processed dataset so it is already ready for use with machine learning models.
 
-**How It Works**
+# How It Works 
 
 ### 1. Data Preprocessing
 - Clean the raw text data.
