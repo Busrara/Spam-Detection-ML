@@ -44,7 +44,7 @@ It’s a pre-processed dataset so it is already ready for use with machine learn
 - Convert the text data into numerical features using TF-IDF vectorization.
 
 ### 2. Handling Class Imbalance
-We use SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset by generating synthetic samples of the minority class (spam).
+I use SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset by generating synthetic samples of the minority class (spam).
 
 ### 3. Model Training
 - Random Forest Classifier: A powerful ensemble learning method.
